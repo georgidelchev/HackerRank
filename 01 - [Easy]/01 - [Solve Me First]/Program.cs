@@ -1,0 +1,18 @@
+﻿using System;
+
+namespace SolveMeFirst
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int firstNum = int.Parse(Console.ReadLine());
+            int secondNum = int.Parse(Console.ReadLine());
+
+            Console.WriteLine(Sum(firstNum, secondNum));
+        }
+
+        static int Sum(int firstNum, int secondNum)
+            => firstNum + secondNum;
+    }
+}
